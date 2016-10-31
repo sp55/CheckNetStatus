@@ -15,7 +15,7 @@
 		84A666831DC709C50001E78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A666811DC709C50001E78D /* LaunchScreen.storyboard */; };
 		84A6668E1DC709C50001E78D /* CheckNetStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6668D1DC709C50001E78D /* CheckNetStatusTests.m */; };
 		84A666991DC709C50001E78D /* CheckNetStatusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A666981DC709C50001E78D /* CheckNetStatusUITests.m */; };
-		84A666AB1DC709ED0001E78D /* SPCheckNetStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A666AA1DC709ED0001E78D /* SPCheckNetStatus.m */; };
+		84A666B71DC7336A0001E78D /* SPCheckNetStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A666B61DC7336A0001E78D /* SPCheckNetStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		84A666941DC709C50001E78D /* CheckNetStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckNetStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A666981DC709C50001E78D /* CheckNetStatusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckNetStatusUITests.m; sourceTree = "<group>"; };
 		84A6669A1DC709C50001E78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84A666A91DC709ED0001E78D /* SPCheckNetStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCheckNetStatus.h; sourceTree = "<group>"; };
-		84A666AA1DC709ED0001E78D /* SPCheckNetStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCheckNetStatus.m; sourceTree = "<group>"; };
+		84A666B51DC7336A0001E78D /* SPCheckNetStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCheckNetStatus.h; sourceTree = "<group>"; };
+		84A666B61DC7336A0001E78D /* SPCheckNetStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCheckNetStatus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,7 @@
 				84A666771DC709C50001E78D /* AppDelegate.m */,
 				84A666791DC709C50001E78D /* ViewController.h */,
 				84A6667A1DC709C50001E78D /* ViewController.m */,
-				84A666A91DC709ED0001E78D /* SPCheckNetStatus.h */,
-				84A666AA1DC709ED0001E78D /* SPCheckNetStatus.m */,
+				84A666B41DC7335E0001E78D /* Classes */,
 				84A6667C1DC709C50001E78D /* Main.storyboard */,
 				84A6667F1DC709C50001E78D /* Assets.xcassets */,
 				84A666811DC709C50001E78D /* LaunchScreen.storyboard */,
@@ -143,6 +142,15 @@
 				84A6669A1DC709C50001E78D /* Info.plist */,
 			);
 			path = CheckNetStatusUITests;
+			sourceTree = "<group>";
+		};
+		84A666B41DC7335E0001E78D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84A666B51DC7336A0001E78D /* SPCheckNetStatus.h */,
+				84A666B61DC7336A0001E78D /* SPCheckNetStatus.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A6667B1DC709C50001E78D /* ViewController.m in Sources */,
-				84A666AB1DC709ED0001E78D /* SPCheckNetStatus.m in Sources */,
 				84A666781DC709C50001E78D /* AppDelegate.m in Sources */,
+				84A666B71DC7336A0001E78D /* SPCheckNetStatus.m in Sources */,
 				84A666751DC709C50001E78D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +522,7 @@
 				84A6669F1DC709C50001E78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A666A01DC709C50001E78D /* Build configuration list for PBXNativeTarget "CheckNetStatusTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				84A666A21DC709C50001E78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A666A31DC709C50001E78D /* Build configuration list for PBXNativeTarget "CheckNetStatusUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				84A666A51DC709C50001E78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
